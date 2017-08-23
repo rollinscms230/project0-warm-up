@@ -1,2 +1,2 @@
 language: c
-script: make --file Makefile --file Tests
+script: make
