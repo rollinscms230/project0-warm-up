@@ -16,7 +16,7 @@ num_passed = 0
 rc = system('make')
 if rc != 0:
 	print 'Build failed. Exiting.'
-	exit()
+	exit(1)
 	
 num_passed += 1  # A working build is one of the tests
 
