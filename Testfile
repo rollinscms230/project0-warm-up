@@ -1,0 +1,10 @@
+TARGETS = hello
+
+test: build $(TARGETS)
+
+build:
+	make
+
+%: %.c
+	./$@ > output
+	diff -q output ./tests/$@.test 2>&1
