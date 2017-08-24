@@ -1,3 +1,6 @@
+// Hello!
+// DSM, 2017
+
 #include <stdio.h>
 
 int main() {
